@@ -54,3 +54,113 @@ const swiper = new Swiper('.swiper', {
 
 
 
+// const one =document.querySelector('.one');
+// const slider = document.querySelector('.van')
+// function Salam(){
+//     if(slider.classList.contains('swiper-slide-duplicate-active')){
+//         one.classList.add('leftt');
+//     }
+//     else{
+//         console.log('asdk');
+//     }
+// }
+// Salam();
+
+$('.btnProduct').click(function(){
+    $('.btnProduct').removeClass('active');
+    $(this).addClass('active');
+})
+
+$('.all').click(function(){
+    $('.iki').removeClass('app');
+    $('.bir').removeClass('app');
+    $('.uc').removeClass('app');
+    $('.dord').removeClass('app');
+    $('.bes').removeClass('app');
+    $('.alti').removeClass('app');
+    $('.yeddi').removeClass('app');
+    $('.sekkiz').removeClass('app');
+})
+
+$('.drink').click(function(){
+    $('.bir').addClass('app');
+    $('.uc').addClass('app');
+    $('.dord').addClass('app');
+    $('.bes').addClass('app');
+    $('.alti').addClass('app');
+    $('.yeddi').addClass('app');
+    $('.sekkiz').addClass('app');
+    $('.iki').removeClass('app');
+
+})
+
+$('.salad').click(function(){
+    $('.bir').addClass('app');
+    $('.iki').addClass('app');
+    $('.dord').addClass('app');
+    $('.bes').addClass('app');
+    $('.alti').addClass('app');
+    $('.yeddi').addClass('app');
+    $('.uc').removeClass('app');
+    $('.sekkiz').addClass('app');
+})
+
+$('.pasta').click(function(){
+    $('.bir').addClass('app');
+    $('.iki').addClass('app');
+    $('.uc').addClass('app');
+    $('.dord').removeClass('app');
+    $('.bes').addClass('app');
+    $('.alti').addClass('app');
+    $('.yeddi').addClass('app');
+    $('.sekkiz').addClass('app');
+})
+
+$('.burger').click(function(){
+    $('.bir').addClass('app');
+    $('.iki').addClass('app');
+    $('.dord').removeClass('app');
+    $('.bes').addClass('app');
+    $('.alti').addClass('app');
+    $('.yeddi').removeClass('app');
+    $('.uc').removeClass('app');
+    $('.sekkiz').removeClass('app');
+})
+
+$('.desert').click(function(){
+    $('.iki').removeClass('app');
+    $('.bir').addClass('app');
+    $('.uc').addClass('app');
+    $('.dord').addClass('app');
+    $('.bes').removeClass('app');
+    $('.alti').addClass('app');
+    $('.yeddi').addClass('app');
+    $('.sekkiz').addClass('app');
+})
+
+$('.pizza').click(function(){
+    $('.iki').removeClass('app');
+    $('.bir').removeClass('app');
+    $('.uc').addClass('app');
+    $('.dord').removeClass('app');
+    $('.bes').addClass('app');
+    $('.alti').addClass('app');
+    $('.yeddi').addClass('app');
+    $('.sekkiz').addClass('app');
+    
+})
+
+
+
+const swiper1 = new Swiper('.swiper-1', {
+    // Optional parameters
+    direction: 'vertical',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+  
+  });
