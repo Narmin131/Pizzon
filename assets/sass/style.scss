@@ -3,24 +3,25 @@ body{
     overflow-x: hidden;
 }
 
+.preloader{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 34;
+}
+
 .hero-sec{
     width: 100%;
     height: auto;
     background-color: #121619;
     position: relative;
-    &::before{
-        content: '';
-        background-image: url('../img/hero-bg.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        opacity: .20;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
     nav{
         width: 100%;
         height: 18vh; 
@@ -64,6 +65,7 @@ body{
             text-transform: uppercase;
         }
     }
+
   }
    
   .swiper {
@@ -172,7 +174,19 @@ body{
         
     }
   }
-
+ &::before{
+         content: '';
+        background-image: url('../img/hero-bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: .20;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 // .leftt{
@@ -689,6 +703,64 @@ overflow: hidden;
 }
 
 
+
+.eighth-sec{
+    background-color: #121619;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    h5{
+        color: #fd9d3e;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    h6{
+        font-size: 5rem;
+        color: #fff;
+        font-weight: bold;
+    }
+    .home-slider{
+     width: 100%;
+    height: 100%;
+    }
+    .item{
+        height: 100%;
+        width: 100%;
+        .all{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            .img{
+                width: 40%;
+                height: 100%;
+                border-radius: 50%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    border: 5px solid #fd9d3e;
+                }
+            }
+            .text{
+                margin-left: 1rem;
+                background-color: #fff;
+                padding: 20px 30px;
+                p{
+                 color: #565a5e;
+                 font-size: 1.2rem;
+                 font-style: italic;
+                }
+                h4{
+                    color: #fd9d3e;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
 
 
 

@@ -1,10 +1,8 @@
-
-
-
+// OWL SLIDER
 $(function(){
 const nexticon = '<i class="fa-solid fa-chevron-right"></i>'
 const previcon = '<i class="fa-solid fa-chevron-left"></i>'
-$('.owl-carousel').owlCarousel({
+$('.home-slider-1').owlCarousel({
     loop:true,
     margin:25,
     nav:true,
@@ -37,35 +35,28 @@ $('.owl-carousel').owlCarousel({
 });
 
 
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-    // autoplay:true,
-  
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-  });
+
+
+$('.home-slider').owlCarousel({
+    loop:true,
+    margin:10,
+    items:1,
+    responsiveClass:true,
+    nav:false,
+  autoplay:true,
+  autoplayTimeout:3000,
+})
+
+// preloader
+$(window).on('load',function(){
+    $('.preloader').delay(2000).fadeOut(500);
+});
 
 
 
-// const one =document.querySelector('.one');
-// const slider = document.querySelector('.van')
-// function Salam(){
-//     if(slider.classList.contains('swiper-slide-duplicate-active')){
-//         one.classList.add('leftt');
-//     }
-//     else{
-//         console.log('asdk');
-//     }
-// }
-// Salam();
 
+
+// MENU PRODUCTS
 $('.btnProduct').click(function(){
     $('.btnProduct').removeClass('active');
     $(this).addClass('active');
@@ -150,17 +141,24 @@ $('.pizza').click(function(){
     
 })
 
+// SWIPER SLIDER
 
-
-const swiper1 = new Swiper('.swiper-1', {
+const swiper = new Swiper('.swiper', {
     // Optional parameters
-    direction: 'vertical',
+    direction: 'horizontal',
     loop: true,
   
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
+   
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
   
-  
+    
   });
+
+
+// 
+
