@@ -1,0 +1,49 @@
+@media (max-width:576px) {
+    .txt{
+        display: flex;
+        flex-direction: column-reverse !important;
+        .left-txt{
+            padding:20px 0 !important;
+        }
+        .icons{
+            padding-top:10px  !important;
+        }
+    }
+    .fourth-sec{
+        button{
+            font-size: 12px !important;
+            padding:14px 15px !important;
+        }
+
+    }
+    .fifth-sec{
+        input{
+            margin: 1rem 0 !important;
+        }
+        .left-text{
+            width: 100% !important;
+        }
+    }
+    .seventh-sec{
+        .news-box{
+            margin: 1rem 0 !important;
+        }
+    }
+    .eighth-sec{
+        h6{
+            font-size: 3.1rem !important;
+            text-align: center !important;
+        }
+        .all{
+            display: flex;
+            flex-direction: column !important;
+            justify-content: center !important;
+            align-items: center !important;
+            .img{
+                width: 70% !important;
+                margin: 1rem 0 !important;
+            }
+
+        }
+    }
+}
