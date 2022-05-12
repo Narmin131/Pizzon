@@ -47,10 +47,10 @@ $('.home-slider').owlCarousel({
   autoplayTimeout:3000,
 })
 
-// // preloader
-// $(window).on('load',function(){
-//     $('.preloader').delay(2000).fadeOut(500);
-// });
+// preloader
+$(window).on('load',function(){
+    $('.preloader').delay(2000).fadeOut(500);
+});
 
 
 
@@ -147,8 +147,8 @@ const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
-  
-   
+    autoplay:true,
+  autoplayTimeout:2000,
   
     // Navigation arrows
     navigation: {

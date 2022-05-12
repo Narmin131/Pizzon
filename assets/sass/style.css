@@ -50,6 +50,35 @@
     width: 70% !important;
     margin: 1rem 0 !important;
   }
+  .hero-sec {
+    height: auto !important;
+  }
+  .hero-sec .order {
+    display: none !important;
+  }
+  .hero-sec .first h1 {
+    font-size: 2rem !important;
+    font-weight: 700;
+    text-align: center;
+  }
+  .hero-sec .first p {
+    text-align: center;
+  }
+  .hero-sec .first .pizza {
+    width: 70%;
+  }
+  .hero-sec .head {
+    font-size: 8rem !important;
+    font-weight: 700;
+    text-align: center !important;
+  }
+  .hero-sec p {
+    text-align: center;
+    font-size: 4rem;
+  }
+  .hero-sec .swiper {
+    height: auto !important;
+  }
 }
 
 body {
@@ -178,6 +207,8 @@ body {
   -webkit-animation-name: left;
           animation-name: left;
   position: relative;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .hero-sec .swiper .swiper-slide .one .pizza {
@@ -220,6 +251,8 @@ body {
           animation-name: right;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .hero-sec .swiper .swiper-slide .two h1 {
@@ -255,6 +288,8 @@ body {
           align-items: center;
   -webkit-animation: top 3s;
           animation: top 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .hero-sec .swiper .swiper-slide .slider-txt h1 {
@@ -290,6 +325,8 @@ body {
           align-items: flex-start;
   -webkit-animation: bottom 2s;
           animation: bottom 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .hero-sec .swiper .swiper-slide .bottom-img img {

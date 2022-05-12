@@ -46,4 +46,36 @@
 
         }
     }
+    .hero-sec{
+        height: auto !important;
+        .order{
+            display: none !important;
+        }
+        .first{
+            h1{
+                font-size: 2rem !important;
+                font-weight: 700;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+            .pizza{
+                width: 70%;
+            }
+        }
+           .head{
+                font-size: 8rem !important;
+                font-weight: 700;
+                text-align: center !important;
+            }
+            p{
+                text-align: center;
+                font-size: 4rem;
+            }
+           
+        .swiper{
+            height: auto !important;
+        }
+    }
 }
