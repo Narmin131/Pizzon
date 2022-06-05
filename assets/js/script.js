@@ -160,5 +160,43 @@ const swiper = new Swiper('.swiper', {
   });
 
 
+  TweenMax.from(".img1",.5, {
+    // opacity: 0,
+    y: -420,
+    ease: Power3.ease,
+    delay:.5,
+  }, 0.02
+  )
+
+  TweenMax.from(".img2",1, {
+    // opacity: 0,
+    y: -620,
+    ease: Power3.ease,
+    delay:.3,
+  }, 0.04
+  )
+
+  TweenMax.from(".img3",1, {
+    // opacity: 0,
+    y: -620,
+    ease: Power3.ease,
+    delay:.4,
+  }, 0.03
+  )
+  TweenMax.from(".img4",.4, {
+    // opacity: 0,
+    y: -620,
+    ease: Power3.ease,
+    delay:.4,
+  }, 0.03
+  )
+
+  TweenMax.from(".two",1, {
+    opacity: 0,
+    x: 320,
+    ease: Power3.ease,
+    delay:.6,
+  }, 0.03
+  )
 // 
 
